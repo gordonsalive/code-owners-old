@@ -1,0 +1,179 @@
+{
+    "delphi": {
+        "type": "specialisation",
+        "description": "Delphi",
+        "owners": {
+            "name": "Mark Humphreys"
+        },
+        "items": ["appLauncher", "bargainList", "bootstrap", "crm"],
+        "appLauncher": {
+            "type": "component",
+            "description": "App Launcher",
+            "owners": {
+                "name": "None"
+            },
+            "items": ["application"],
+            "application": {
+                "type": "sub-component",
+                "description": "Application",
+                "owners": {
+                    "name": "None"
+                }
+            }
+        },
+        "bargainList": {
+            "type": "component",
+            "description": "Bargain List",
+            "owners": {
+                "name": "None"
+            },
+            "items": ["application"],
+            "application": {
+                "type": "sub-component",
+                "description": "Application",
+                "owners": {
+                    "name": "None"
+                }
+            }
+        },
+        "bootstrap": {
+            "type": "component",
+            "description": "Bootstrap",
+            "owners": {
+                "name": "None"
+            },
+            "items": ["application"],
+            "application": {
+                "type": "sub-component",
+                "description": "Application",
+                "owners": {
+                    "name": "None"
+                }
+            }
+        },
+        "crm": {
+            "type": "component",
+            "description": "CRM",
+            "owners": {
+                "name": "None"
+            },
+            "items": ["application", "secureMessaging", "delphi", "templateEditor", "rpgTransactions"],
+            "application": {
+                "type": "sub-component",
+                "description": "Application",
+                "owners": {
+                    "name": "None"
+                }
+            },
+            "secureMessaging": {
+                "type": "sub-component",
+                "description": "Secure Messaging",
+                "owners": {
+                    "name": "None"
+                }
+            },
+            "delphi": {
+                "type": "sub-component",
+                "description": "Delphi",
+                "owners": {
+                    "name": "None"
+                }
+            },
+            "templateEditor": {
+                "type": "sub-component",
+                "description": "Template Editor",
+                "owners": {
+                    "name": "None"
+                }
+            },
+            "rpgTransactions": {
+                "type": "sub-component",
+                "description": "RPG Transactions",
+                "owners": {
+                    "name": "None"
+                }
+            }
+        }
+    },
+    "java": {
+        "type": "specialisation",
+        "description": "Java",
+        "owners": {
+            "name": "Daniel Ecer"
+        },
+        "items": ["antiMoneyLaundering", "clientSites", "figaroWeb"],
+        "antiMoneyLaundering": {
+            "type": "component",
+            "description": "Anti Money Laundering / ID&V",
+            "owners": {
+                "name": "None"
+            },
+            "items": ["experianConnector", "id3Global"],
+            "experianConnector": {
+                "type": "sub-component",
+                "description": "Experian Connector",
+                "owners": {
+                    "name": "None"
+                }
+            },
+            "id3Global": {
+                "type": "sub-component",
+                "description": "ID3 Global (formally ProveURU)",
+                "owners": {
+                    "name": "None"
+                }
+            }
+        },
+        "clientSites": {
+            "type": "component",
+            "description": "Client Sites",
+            "owners": {
+                "name": "None"
+            },
+            "items": ["fidelitySite", "lawsafe", "snoopySite", "squirrel"],
+            "fidelitySite": {
+                "type": "sub-component",
+                "description": "Fidelity Site",
+                "owners": {
+                    "name": "None"
+                }
+            },
+            "lawsafe": {
+                "type": "sub-component",
+                "description": "Lawsafe",
+                "owners": {
+                    "name": "None"
+                }
+            },
+            "snoopySite": {
+                "type": "sub-component",
+                "description": "Snoopy Site",
+                "owners": {
+                    "name": "None"
+                }
+            },
+            "squirrel": {
+                "type": "sub-component",
+                "description": "Squirrel",
+                "owners": {
+                    "name": "None"
+                }
+            }
+        },
+        "figaroWeb": {
+            "type": "component",
+            "description": "FIGAROWeb",
+            "owners": {
+                "name": "None"
+            },
+            "items": ["trading"],
+            "trading": {
+                "type": "sub-component",
+                "description": "Trading",
+                "owners": {
+                    "name": "Andrew Farrel"
+                }
+            }
+        }
+    }
+}
